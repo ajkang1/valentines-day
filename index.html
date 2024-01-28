@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div class = "container">
+            <img src = "rilakkuma.webp">
+            <h1>Will you be my Valentine?</h1>
+            <div class = "buttons">
+                <a href = "accept.html">
+                    <button id = "accept">Yes</button>
+                </a>
+                <div>
+                    <button id = "decline" onmouseover = "mouseOn()" onmouseleave = "mouseOff()">No</button>
+                </div>
+            </div>
+        </div>
+        <script>
+            function mouseOn(){
+                let n = document.getElementById("decline");
+                n.style.display = "none";
+            }
+
+            function mouseOff(){
+                let n = document.getElementById("decline");
+                n.style.display = "inline";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+*{
+    font-family:'Courier New', Courier, monospace
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+#accept, #decline{
+    width: 100px;
+    height: 50px;
+    background-color: lightpink;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
